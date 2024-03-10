@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MahajongGame/static/css/main.884c952f.css",
+    "main.js": "/MahajongGame/static/js/main.3d4795ef.js",
+    "index.html": "/MahajongGame/index.html",
+    "main.884c952f.css.map": "/MahajongGame/static/css/main.884c952f.css.map",
+    "main.3d4795ef.js.map": "/MahajongGame/static/js/main.3d4795ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.884c952f.css",
+    "static/js/main.3d4795ef.js"
+  ]
+}
