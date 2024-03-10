@@ -1,0 +1,104 @@
+/* styles.css */
+.app {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .welcome-screen,
+  .game-board,
+  .success-screen {
+    text-align: center;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-screen,
+  .success-screen {
+    max-width: 400px;
+    width: 90%;
+  }
+  
+  .game-board {
+    max-width: 800px;
+    width: 100%;
+    
+  }
+  .con{
+    display: flex;
+    justify-content: space-around;
+  }
+  .score,
+  .time {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .tiles {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .tile {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+ 
+  
+  .tile.flipped {
+    background-color: #fff;
+  }
+  
+  .success-screen p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .success-screen button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .inp{
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+  }
+  .btn{
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .success-screen button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  
